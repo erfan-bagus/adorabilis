@@ -1,0 +1,39 @@
+{
+  "name": "adorabilis",
+  "version": "1.0.0",
+  "description": "Make the MVC method on Express js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha index.js",
+    "error": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/erfanbagus/adorabilis.git"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "erfanbagus@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/erfanbagus/adorabilis/issues"
+  },
+  "homepage": "https://gitlab.com/erfanbagus/adorabilis#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "html-minifier": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.16.0",
+    "nunjucks": "^3.2.0",
+    "pg": "^7.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.1",
+    "nodemon": "^1.18.10"
+  }
+}
